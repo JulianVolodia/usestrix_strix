@@ -58,6 +58,28 @@ Strix are autonomous AI agents that act just like real hackers - they run your c
 
 ---
 
+## 🔒 Vulnerability Scanners
+
+In addition to Strix's AI-powered penetration testing, this repository includes specialized vulnerability scanners for:
+
+### 🍎 macOS Security Scanner
+Comprehensive security audit tool for macOS systems identifying:
+- Privilege escalation vectors, TCC bypasses, dylib hijacking
+- System security configuration (SIP, Gatekeeper, FileVault)
+- **Location**: [`macos_vulnerability_scanner/`](macos_vulnerability_scanner/)
+- **Quick Start**: `cd macos_vulnerability_scanner && sudo ./run_scanner.sh -v`
+
+### 🪟 Windows Security Scanner
+Enterprise-grade scanner for Windows systems detecting:
+- Service misconfigurations, UAC issues, SMB vulnerabilities
+- Credential storage, LSASS protection, BitLocker status
+- **Location**: [`windows_vulnerability_scanner/`](windows_vulnerability_scanner/)
+- **Quick Start**: `cd windows_vulnerability_scanner && .\run_scanner.ps1 -Verbose`
+
+**Documentation**: See [VULNERABILITY_SCANNING.md](VULNERABILITY_SCANNING.md) for complete guide including responsible disclosure to Apple, Microsoft, Google, and other vendors.
+
+---
+
 ### 🚀 Quick Start
 
 Prerequisites:
